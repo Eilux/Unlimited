@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.bodner.jack.unlimited.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "RegisterBlocks"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

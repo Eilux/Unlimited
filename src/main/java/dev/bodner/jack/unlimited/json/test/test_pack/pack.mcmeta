@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "pack_format": 7,
+        "description": "Example Object Pack",
+        "object_mode": true
+    }
+}

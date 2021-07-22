@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "unlimited",
+  "version": "${version}",
+  "name": "Unlimited Blocks and Items",
+  "description": "Allows servers to add their own blocks and items",
+  "authors": [
+    "Eilux"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/unlimited/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.bodner.jack.unlimited.client.UnlimitedClient"
+    ],
+    "main": [
+      "dev.bodner.jack.unlimited.Unlimited"
+    ],
+    "server": [
+      "dev.bodner.jack.unlimited.server.UnlimitedServer"
+    ]
+  },
+  "mixins": [
+    "unlimited.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "minecraft": "1.17.1"
+  }
+}

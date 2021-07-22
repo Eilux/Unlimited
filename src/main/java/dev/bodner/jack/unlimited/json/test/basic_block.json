@@ -1,0 +1,22 @@
+{
+  "mode": "BLOCK",
+  "name": "required, e.g. [id:name]",
+
+  "base": "should be one of the options in Material.class e.g. STONE",
+  "map_color": "one of the options in MaterialColors.class e.g. COLOR_BLACK",
+  "hardness": "float value for how long breaking takes",
+  "blast_resist": "float value",
+  "instant_break": "true|false",
+  "conducts_redstone": "true|false",
+  "suffocates": "true|false",
+  "valid_spawn": "true|false",
+  "blocks_view": "true|false",
+  "jump_factor": "float value",
+  "light_level": "int 0-15",
+  "no_collision": "true|false",
+  "no_drops": "true|false",
+  "no_occlusion": "tru|false",
+  "requires_tool": "true|false",
+  "sound": "one of the options in SoundType.class e.g. METAL",
+  "speed_factor": "float value"
+}

@@ -1,0 +1,8 @@
+{
+  "mode": "BLOCK",
+  "name": "test:test",
+  "base": "STONE",
+  "map_color": "COLOR_BLACK",
+  "hardness": 1.7,
+  "blast_resist": 5.7
+}
